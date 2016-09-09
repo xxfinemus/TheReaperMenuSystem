@@ -1,0 +1,17 @@
+########## RESEARCH TIL FEIX THE REAPER MENU ##########
+
+ - Anchoring
+ - Belysning
+ - Skygger
+ - Z-order
+ - FPS til stopmotion
+ - Unity animator til sprites
+ - Responsiv
+
+Research Thomas udfører:
+ - Responsiv
+ - Anchoring
+
+Research Josefine udfører:
+ - Animator
+ - z-order
