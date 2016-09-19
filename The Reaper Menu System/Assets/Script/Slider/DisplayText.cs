@@ -6,21 +6,26 @@ public class DisplayText : MonoBehaviour
 {
     private int kittyNum = 16;
     private int maidenNum;
+    private Text textToChange;
+    private Slider sliderToChange;
 
     [SerializeField]
-    private Text textToChange;
-    [SerializeField]
     private string sliderText;
+
 
     void Start()
     {
         textToChange = gameObject.GetComponentInChildren<Text>();
+        sliderToChange = gameObject.GetComponent<Slider>();
+
+        ChangeText();
+        ChangeSliderValue();
     }
 
 
     public void ChangeText()
     {
-        textToChange.text = sliderText + kittyNum;
+        textToChange.text = sliderText + kittyNum + " x";
     }
 
     public void ChangeSliderValue()
@@ -29,5 +34,12 @@ public class DisplayText : MonoBehaviour
         //{
         //    kittyNum++;
         //}
+        //OR if Challange completed
+        //      kittyNum = NewNumber;
+        //      ChangeText();
+
+        sliderToChange.value = kittyNum;
     }
+
+
 }
