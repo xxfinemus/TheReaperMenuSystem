@@ -59,10 +59,6 @@ public class graphicsScript : MonoBehaviour {
 
     }
 
-    void Update()
-    {
-        Debug.Log(fullScreenTog + " " + Screen.fullScreen);
-    }
     public void changeRes()
     {        
         switch (resOptions.value)
