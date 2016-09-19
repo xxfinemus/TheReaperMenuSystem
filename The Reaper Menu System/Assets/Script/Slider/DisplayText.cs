@@ -4,7 +4,7 @@ using System.Collections;
 
 public class DisplayText : MonoBehaviour
 {
-    private int kittyNum = 16;
+    private int kittyNum = 20;
     private int maidenNum;
     private Text textToChange;
     private Slider sliderToChange;
