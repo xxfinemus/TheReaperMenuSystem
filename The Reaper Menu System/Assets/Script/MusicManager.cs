@@ -19,9 +19,6 @@ public class MusicManager : MonoBehaviour {
 	void Update () {
 
         musicTrack.volume = music.value;
-
-
-        Debug.Log(music.value);
 	}
 
     //void OnGUI()
